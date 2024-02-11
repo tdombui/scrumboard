@@ -1,4 +1,4 @@
-import Bg from "../../../ls/src/assets/bg/bg.png";
+import Bg from "../assets/bg.png";
 
 export default function Background() {
   return (
