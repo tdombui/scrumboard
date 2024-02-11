@@ -1,0 +1,39 @@
+.timer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 555px; /* Set your desired fixed width here */
+    margin: 0 auto; /* Center the container horizontally */
+  }
+  
+  .target-date-container {
+    
+    font-family: "Inter";
+  }
+  
+  .date-components {
+    display: flex;
+    gap: 5px;
+    font-family: "Inter";
+  }
+  
+  .date-component {
+    font-size: 14px;
+  }
+
+  .news-ticker-container {
+    font-size: 14px;
+    color: white; /* Adjust text color as needed */
+    
+    
+  }
+  
+  marquee {
+    white-space: nowrap;
+    overflow: hidden;
+  }
+
+  .span-marquee {
+    margin-right: 50px;
+  }
