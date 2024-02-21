@@ -10,7 +10,7 @@ export default function Header() {
         style={{ userSelect: "none" }}
       >
         <a
-          href="https://db-vercel-v1-2-ejns.vercel.app/"
+          href="https://dombui.com"
           className="flex items-center mr-4 lg:pointer-events-auto text-3xl"
         >
           <div>

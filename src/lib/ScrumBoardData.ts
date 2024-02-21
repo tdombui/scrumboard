@@ -135,7 +135,7 @@ export const cards = [
         id: "1",
         column: "todo",
         content:
-            "SHOP/PRODUCTS/APPAREL : Embroider and deliver garments for Ramo's Tires, friends; and add more designs to webshop (monthly basis?)",
+            "SHOP/PRODUCTS/APPAREL : Embroider and deliver garments for Ramo's Tires, friends; and add more designs to webshop",
         category: ["product", "design", "business"]
     },
     {
@@ -168,6 +168,15 @@ export const cards = [
 
     },
     {
+        id: "3",
+        column: "complete",
+        content:
+            "TERMS : Display t&cs on product pages",
+        category: ["dev", "product"],
+        targetDate: ["02-14-2024"],
+        completeDate: ["2-19-2024"],
+    },
+    {
         id: "2",
         column: "inProgress",
         content:
@@ -181,14 +190,19 @@ export const cards = [
         column: "inProgress",
         content:
             "PAGE/ABOUT : Re-do About Me page; uses 'old page.tsx'; not a fan of the horizontal Swiper.js layout",
-        category: ["dev", "design"]
+        category: ["dev", "design"],
+        targetDate: ["02-14-2024"],
+        completeDate: ["2-19-2024"],
+
     },
     {
         id: "2",
         column: "inProgress",
         content:
             "PAGE/DRAWER OF BUTTONS : Build 'Drawer of Buttons' where users can interact with a selection of buttons",
-        category: ["dev", "product", "design"]
+        category: ["dev", "product", "design"],
+        targetDate: ["02-14-2024"],
+        completeDate: ["2-19-2024"],
 
     },
     {
@@ -196,21 +210,27 @@ export const cards = [
         column: "inProgress",
         content:
             "STRIPE API : Enable coupons and promo codes",
-        category: ["dev", "product", "business"]
+        category: ["dev", "product", "business"],
+        targetDate: ["02-14-2024"],
+        completeDate: ["2-19-2024"],
     },
     {
         id: "2",
         column: "inProgress",
         content:
             "AWS/S3 : Reconfigure bucket permissions and IAM users",
-        category: ["dev"]
+        category: ["dev"],
+        targetDate: ["02-14-2024"],
+        completeDate: ["2-19-2024"],
     },
     {
         id: "2",
         column: "inProgress",
         content:
             "COMPONENT/REFACTOR FRAMER ANIMATIONS : Refactor animated divs and elements (framer-motion) into their own components for reusability and scalability",
-        category: ["dev"]
+        category: ["dev"],
+        targetDate: ["02-14-2024"],
+        completeDate: ["2-19-2024"],
     },
     {
         id: "3",
@@ -238,6 +258,15 @@ export const cards = [
         category: ["dev"],
         targetDate: ["02-19-2024"],
         completeDate: ["2-20-2024"],
+    },
+    {
+        id: "3",
+        column: "complete",
+        content:
+            "TERMS : Display t&cs on product pages",
+        category: ["dev", "product"],
+        targetDate: ["02-14-2024"],
+        completeDate: ["2-19-2024"],
     },
     {
         id: "3",
@@ -320,7 +349,9 @@ export const cards = [
         column: "complete",
         content:
             "AWS/S3 : Implement S3 buckets for object hosting (images, other media, app data)",
-        category: ["dev"]
+        category: ["dev"],
+        targetDate: ["02-14-2024"],
+        completeDate: ["2-19-2024"],
     },
 
     {
@@ -328,87 +359,108 @@ export const cards = [
         column: "complete",
         content:
             "CMS/SANITY : Implement content management system via Sanity API",
-        category: ["dev"]
+        category: ["dev"],
+        targetDate: ["02-14-2024"],
+        completeDate: ["2-19-2024"],
     },
     {
         id: "3",
         column: "complete",
         content:
             "SHOP/CART : Implement shopping cart, product composition/uniqueIds per product configuration (size, color, etc)",
-        category: ["dev", "product"]
+        category: ["dev", "product"],
+        targetDate: ["02-14-2024"],
+        completeDate: ["2-19-2024"],
     },
     {
         id: "3",
         column: "complete",
         content:
             "SHOP/PAYMENTS-STRIPE : Implement secure payments funnel via Stripe API",
-        category: ["dev", "product", "business"]
+        category: ["dev", "product", "business"],
+        targetDate: ["02-14-2024"],
+        completeDate: ["2-19-2024"],
     },
     {
         id: "3",
         column: "complete",
         content:
             "PAGE/HOME : Landing page with countdown to full site deployment",
-        category: ["dev", "product"]
+        category: ["dev", "product"],
+        targetDate: ["02-14-2024"],
+        completeDate: ["2-19-2024"],
     },
     {
         id: "3",
         column: "complete",
         content:
             "PAGE/GALLERY : Infinite-scroll gallery that fetches images from S3 via AWS SDK",
-        category: ["dev", "product"]
+        category: ["dev", "product"],
+        targetDate: ["02-14-2024"],
+        completeDate: ["2-19-2024"],
     },
     {
         id: "3",
         column: "complete",
         content:
             "COMPONENT/MUSIC PLAYER : Implement music player and pop-up tracklist via Youtube API",
-        category: ["dev"]
+        category: ["dev"],
+        targetDate: ["02-14-2024"],
+        completeDate: ["2-19-2024"],
     },
     {
         id: "3",
         column: "complete",
         content:
             "PAGE/SHOP : Build Store, Shopping Cart, Product Details, and Product Grid page with products linked via Sanity API",
-        category: ["dev", "product", "design"]
+        category: ["dev", "product", "design"],
+        targetDate: ["02-14-2024"],
+        completeDate: ["2-19-2024"],
     },
     {
         id: "3",
         column: "complete",
         content:
             "PAGE/SHOP/PRODUCT GRID : Build custom product page",
-        category: ["dev", "product", "design"]
+        category: ["dev", "product", "design"],
+        targetDate: ["02-14-2024"],
+        completeDate: ["2-19-2024"],
     },
     {
         id: "3",
         column: "complete",
         content:
             "SHOP/PRODUCTS/APPAREL : Design, deliver, and add Product Launch 1 (Friends n Fam) to webstore",
-        category: ["dev", "product", "design"]
+        category: ["dev", "product", "design"],
+        targetDate: ["02-14-2024"],
+        completeDate: ["2-19-2024"],
     },
     {
         id: "3",
         column: "complete",
         content:
-            "PAGE/ABOUT : Build About Me page with 'Equip Avatar' module",
-        category: ["dev"]
+            "PAGE/ABOUT : Build About page with 'Equip Avatar' module",
+        category: ["dev"],
+        targetDate: ["02-14-2024"],
+        completeDate: ["2-19-2024"],
     },
     {
         id: "3",
         column: "complete",
         content:
             "PAGE/CONTACT : Build Contact Me page with Resend API",
-        category: ["dev"]
+        category: ["dev"],
+        targetDate: ["02-14-2024"],
+        completeDate: ["2-19-2024"],
     },
     {
         id: "3",
         column: "complete",
         content:
             "RESALE LICENSE : Acquire Resale License in State of California to buy products at wholesale and to sell taxable products online",
-        category: ["business"]
+        category: ["business"],
+        targetDate: ["02-14-2024"],
+        completeDate: ["2-19-2024"],
     },
-
-
-    // Add more cards as needed
 ];
 
