@@ -9,27 +9,6 @@ export const cards = [
         id: "1",
         column: "todo",
         content:
-            "BLOG : Build Blog for writing and SEO",
-        category: ["dev", "product"]
-    },
-    {
-        id: "1",
-        column: "todo",
-        content:
-            "OPT-IN NEWSLETTER SUBSCRIPTION : Integrate opt-in `subscribe to newsletter` function to Contact Form; DynamoDB",
-        category: ["dev", "product"]
-    },
-    {
-        id: "1",
-        column: "todo",
-        content:
-            "RECAPTCHA : Implement RECAPTCHA for contact form",
-        category: ["dev"]
-    },
-    {
-        id: "1",
-        column: "todo",
-        content:
             "PRODUCTS/APPAREL : Design, deliver, and add Product Launch 2 (Friends n Fam) to webstore",
         category: ["product", "design"]
     },
@@ -68,18 +47,26 @@ export const cards = [
             "SCRUM BOARD : Add => (1) category per item (product, dev, etc); (2) priority level per item; (3) dates (created, started, completed); (4) 'time-to-completion' calculator for Complete items; (5) AddToArchive function when item is > 30 days; and (6) Archived Scrum items page",
         category: ["dev", "product", "design"]
     },
+
     {
         id: "1",
         column: "todo",
         content:
-            "COMPONENT/MUSIC PLAYER : Found bad UX behavior where onPageLoad, the music player will play song[0] (sorted a-z) when tracklist is opened and then closed by user",
+            "RECAPTCHA : Implement RECAPTCHA for contact form",
         category: ["dev"]
     },
     {
         id: "1",
         column: "todo",
         content:
-            "COMPONENT/MUSIC PLAYER : Enable Music Player across all /routes (except for Gallery for performance reasons)",
+            "COMPONENT/MUSIC PLAYER : Found unintended UX behavior where onPageLoad, the music player will play song[0] (sorted a-z) when tracklist is opened and then closed by user",
+        category: ["dev"]
+    },
+    {
+        id: "1",
+        column: "todo",
+        content:
+            "COMPONENT/MUSIC PLAYER : Enable Music Player across all /routes",
         category: ["dev"]
     },
     {
@@ -114,7 +101,7 @@ export const cards = [
         id: "1",
         column: "todo",
         content:
-            "GALLERY/BASE64 : base64 encoding of images for caching",
+            "GALLERY/BASE64 : base64 encoding of images for caching/local storage",
         category: ["dev"]
     },
     {
@@ -167,14 +154,23 @@ export const cards = [
         category: ["business"],
 
     },
+
     {
-        id: "3",
-        column: "complete",
+        id: "2",
+        column: "inProgress",
         content:
-            "TERMS : Display t&cs on product pages",
+            "SHOP BANNER : Shop announcements and updates",
         category: ["dev", "product"],
-        targetDate: ["02-14-2024"],
-        completeDate: ["2-19-2024"],
+        startDate: ["02-21-2024"],
+        targetDate: ["02-22-2024"],
+        completeDate: ["2-22-2024"],
+    },
+    {
+        id: "2",
+        column: "inProgress",
+        content:
+            "SUBSCRIBE 2 NEWSLETTER : Integrate opt-in `subscribe to newsletter` function to Contact Form; DynamoDB for entries",
+        category: ["dev", "product"]
     },
     {
         id: "2",
@@ -189,11 +185,17 @@ export const cards = [
         id: "2",
         column: "inProgress",
         content:
-            "PAGE/ABOUT : Re-do About Me page; uses 'old page.tsx'; not a fan of the horizontal Swiper.js layout",
+            "PAGE/ABOUT : Redo About page",
         category: ["dev", "design"],
         targetDate: ["02-14-2024"],
         completeDate: ["2-19-2024"],
-
+    },
+    {
+        id: "2",
+        column: "inProgress",
+        content:
+            "BLOG : Build Blog for writing and SEO",
+        category: ["dev", "product"]
     },
     {
         id: "2",
