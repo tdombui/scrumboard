@@ -74,3 +74,21 @@ button:focus-visible {
 .card-p {
   box-shadow: 3px 3px 6px  #ecfdf5;
 }
+
+  /* Styles for the scrollbar track (background) */
+  .custom-scrollbar::-webkit-scrollbar-track {
+    padding-left: 10px;
+    background-color: transparent; /* Light grey background */
+  }
+
+  /* Styles for the scrollbar handle */
+  .custom-scrollbar::-webkit-scrollbar-thumb {
+    background-color: #a7f3d0; /* Darker grey scrollbar handle */
+    border-radius: 10px; /* Rounded corners for the scrollbar handle */
+  }
+
+  /* Optional: Styles for the scrollbar itself (width, etc.) */
+  .custom-scrollbar::-webkit-scrollbar {
+    width: 7px; /* Width of the scrollbar */
+  }
+

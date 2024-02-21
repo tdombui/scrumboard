@@ -3,6 +3,7 @@ import Background from "./components/background";
 import { useSwipeable } from "react-swipeable";
 import { columns, cards } from "./lib/ScrumBoardData"; // Ensure this path is correct
 import Header from "./components/header";
+// import { Archive } from "lucide-react";
 
 type Card = {
   id: string;
@@ -64,7 +65,7 @@ const ScrumBoard: React.FC = () => {
       <Background />
       <Header />
 
-      <div className="flex justify-center min-h-screen" {...handlers}>
+      <div className="flex justify-center min-h-screen " {...handlers}>
         <div className="mt-2 w-full max-w-7xl mx-auto p-5">
           <div className=" mb-4 flex md:hidden">
             {columns.map((column) => (

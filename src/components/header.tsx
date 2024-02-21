@@ -10,7 +10,7 @@ export default function Header() {
         style={{ userSelect: "none" }}
       >
         <a
-          href="https://dombui.com"
+          href="https://db-vercel-v1-2-ejns.vercel.app/"
           className="flex items-center mr-4 lg:pointer-events-auto text-3xl"
         >
           <div>
@@ -20,7 +20,7 @@ export default function Header() {
             />
           </div>
         </a>
-        SCRUM
+        scrum
         <div className="flex items-center ml-4 lg:pointer-events-auto">
           <Rabbit
             className="w-10 h-10 text-white"

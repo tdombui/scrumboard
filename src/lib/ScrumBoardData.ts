@@ -5,12 +5,46 @@ export const columns = [
 ];
 
 export const cards = [
-
     {
         id: "1",
         column: "todo",
         content:
-            "GALLERY : Add => (1) filters (ie, curated, b-sides, film, digital, horizontal, vertical, dates); (2) Video Gallery",
+            "BLOG : Build Blog for writing and SEO",
+        category: ["dev", "product"]
+    },
+    {
+        id: "1",
+        column: "todo",
+        content:
+            "OPT-IN NEWSLETTER SUBSCRIPTION : Integrate opt-in `subscribe to newsletter` function to Contact Form; DynamoDB",
+        category: ["dev", "product"]
+    },
+    {
+        id: "1",
+        column: "todo",
+        content:
+            "RECAPTCHA : Implement RECAPTCHA for contact form",
+        category: ["dev"]
+    },
+    {
+        id: "1",
+        column: "todo",
+        content:
+            "PRODUCTS/APPAREL : Design, deliver, and add Product Launch 2 (Friends n Fam) to webstore",
+        category: ["product", "design"]
+    },
+    {
+        id: "1",
+        column: "todo",
+        content:
+            "META ADS : Schedule Meta Ads campaign #1",
+        category: ["product", "business"]
+    },
+    {
+        id: "1",
+        column: "todo",
+        content:
+            "GALLERY : Add => (1) filters (ie, curated, b-sides, film, digital, horizontal, vertical, dates); (2) Video Gallery; (3) Graphics Gallery; (4)",
         category: ["dev", "product"]
     },
     {
@@ -80,6 +114,13 @@ export const cards = [
         id: "1",
         column: "todo",
         content:
+            "GALLERY/BASE64 : base64 encoding of images for caching",
+        category: ["dev"]
+    },
+    {
+        id: "1",
+        column: "todo",
+        content:
             "DATA VIS SIDE QUEST PROJECT : Build Data Visualization pages; using D3, Chart.js, Highcharts, Recharts (?)",
         category: ["dev", "product", "design"]
     },
@@ -122,7 +163,7 @@ export const cards = [
         id: "1",
         column: "todo",
         content:
-            "TRADEMARK/LLC : Trademark name and moniker, and register as LLC",
+            "TRADEMARK/LLC : Trademark `INSOMNYC`, and register as LLC",
         category: ["business"],
 
     },
@@ -130,30 +171,16 @@ export const cards = [
         id: "2",
         column: "inProgress",
         content:
-            "DEPLOY NEXTJS BUILD : Deploy the nextjs build for production via Node.js*Hostinger VPS - I did not look into the deployment of nextjs apps; deploying now (Feb 7 2024 23:00); was able to git clone the latest repo to the VPS, but upon launch, half of my APIs did not work. After looking into the issue with S3 and Stripe, I ended up breaking the cart somehow 😭 (Feb 8 2024 15:00); .env.production created in VPS, APIs only work in localhost now, and not in the VPS's IP address; need to check CORS policy for S3 and Stripe",
-        category: ["dev", "product", "design"],
-        targetDate: ["02-09-2024"]
-    },
-    {
-        id: "2",
-        column: "inProgress",
-        content:
-            "FIX SHOPPING CART : After looking into the APIs that did not work in production, I broke the cart. Object distinction (gray-sm, gray-lg)no longer works, as well as addProduct, removeProduct, and onCheckout",
+            "FILE IMPORTS : Redo file paths from relative to absolute",
         category: ["dev", "product"],
-        targetDate: ["02-09-2024"]
+        targetDate: ["02-14-2024"],
+        completeDate: ["2-19-2024"],
     },
     {
         id: "2",
         column: "inProgress",
         content:
             "PAGE/ABOUT : Re-do About Me page; uses 'old page.tsx'; not a fan of the horizontal Swiper.js layout",
-        category: ["dev", "design"]
-    },
-    {
-        id: "2",
-        column: "inProgress",
-        content:
-            "PAGE/CONTACT : Re-do Contact Me page; slow performance during dev/testing; uses 'old page.tsx' layout; redundant dependencies(?)",
         category: ["dev", "design"]
     },
     {
@@ -185,14 +212,109 @@ export const cards = [
             "COMPONENT/REFACTOR FRAMER ANIMATIONS : Refactor animated divs and elements (framer-motion) into their own components for reusability and scalability",
         category: ["dev"]
     },
-
     {
         id: "3",
         column: "complete",
         content:
-            "SCRUM BOARD : Scrum board with to-do, in progress, and complete columns, and a timer that shows Sprint countdown to next deployment; deployed on its own subdomain => <agile.dombui.com>",
-        category: ["dev", "product"]
+            "ADD PAYMENT METHODS : all major credit cards, BNPL providers, apple and g pay, cashapp",
+        category: ["dev", "product"],
+        targetDate: ["02-19-2024"],
+        completeDate: ["2-20-2024"],
     },
+    {
+        id: "3",
+        column: "complete",
+        content:
+            "SHOP COMPONENTS : payment icons,  faq, returns, terms, sizing, shipping",
+        category: ["dev", "product"],
+        targetDate: ["02-19-2024"],
+        completeDate: ["2-20-2024"],
+    },
+    {
+        id: "3",
+        column: "complete",
+        content:
+            "FREE SHIPPING : conditionally display free shipping option for orders >= $75",
+        category: ["dev"],
+        targetDate: ["02-19-2024"],
+        completeDate: ["2-20-2024"],
+    },
+    {
+        id: "3",
+        column: "complete",
+        content:
+            "TRANSFER DOMAIN : from Hostinger to Vercel",
+        category: ["dev", "product"],
+        targetDate: ["02-14-2024"],
+        completeDate: ["2-19-2024"],
+    },
+    {
+        id: "3",
+        column: "complete",
+        content:
+            "GTM : Implement GTM for all routes; track abandoned cart",
+        category: ["dev"],
+        targetDate: ["02-16-2024"],
+        completeDate: ["2-17-2024"],
+    },
+    {
+        id: "3",
+        column: "complete",
+        content:
+            "DEPLOY NEXTJS BUILD : Deploy the nextjs build for production",
+        category: ["dev", "product", "design"],
+        targetDate: ["02-06-2024"],
+        completeDate: ["2-14-2024"],
+    },
+    {
+        id: "3",
+        column: "complete",
+        content:
+            "Continuous integration/continuous deployment : Implement CI/CD pipeline; (1) source control + CI w/ github, (2)CD w/ vercel",
+        category: ["dev", "product"],
+        startDate: ["02-16-2024"],
+        targetDate: ["03-4-2024"],
+        completeDate: ["02-15-2024"],
+    },
+    {
+        id: "3",
+        column: "complete",
+        content:
+            "SHOPPING CART : redo cart; add to cart, remove from cart, empty cart, increment, checkout, uniqueId (id-col-sz)",
+        category: ["dev", "product"],
+        targetDate: ["02-09-2024"],
+        completeDate: ["2-12-2024"],
+    },
+    {
+        id: "3",
+        column: "complete",
+        content:
+            "PAGE/CONTACT : Re-do Contact Me page",
+        category: ["dev", "design"],
+        targetDate: ["02-09-2024"],
+        completeDate: ["2-13-2024"],
+
+    },
+    {
+        id: "3",
+        column: "complete",
+        content:
+            "COMPONENT/TERMS : Re-do Terms page into react component",
+        category: ["dev", "design"],
+        targetDate: ["02-16-2024"],
+        completeDate: ["2-16-2024"],
+
+    },
+    {
+        id: "3",
+        column: "complete",
+        content:
+            "SCRUM BOARD : Scrum board with backlog, in progress, and complete columns, and a timer that shows Sprint countdown to next deployment; deployed on its own subdomain => agile.dombui.com",
+        category: ["dev", "product"],
+        targetDate: ["02-09-2024"],
+        completeDate: ["2-12-2024"],
+    },
+
     {
         id: "3",
         column: "complete",
@@ -212,7 +334,7 @@ export const cards = [
         id: "3",
         column: "complete",
         content:
-            "SHOP/CART : Implement shopping cart, product distinction/uniqueIds per product configuration (size, color, etc)",
+            "SHOP/CART : Implement shopping cart, product composition/uniqueIds per product configuration (size, color, etc)",
         category: ["dev", "product"]
     },
     {
@@ -275,14 +397,14 @@ export const cards = [
         id: "3",
         column: "complete",
         content:
-            "PAGE/CONTACT : Build Contact Me page with Resend",
+            "PAGE/CONTACT : Build Contact Me page with Resend API",
         category: ["dev"]
     },
     {
         id: "3",
         column: "complete",
         content:
-            "RESALE LICENSE : Acquire Resale License in State of California in order to buy products at wholesale prices and to sell taxable products online",
+            "RESALE LICENSE : Acquire Resale License in State of California to buy products at wholesale and to sell taxable products online",
         category: ["business"]
     },
 
