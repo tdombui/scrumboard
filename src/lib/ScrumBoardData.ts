@@ -176,15 +176,6 @@ export const cards = [
         id: "2",
         column: "inProgress",
         content:
-            "FILE IMPORTS : Redo file paths from relative to absolute",
-        category: ["dev", "product"],
-        targetDate: ["02-14-2024"],
-        completeDate: ["2-19-2024"],
-    },
-    {
-        id: "2",
-        column: "inProgress",
-        content:
             "PAGE/ABOUT : Redo About page",
         category: ["dev", "design"],
         targetDate: ["02-14-2024"],
@@ -287,6 +278,15 @@ export const cards = [
         category: ["dev"],
         targetDate: ["02-16-2024"],
         completeDate: ["2-17-2024"],
+    },
+    {
+        id: "3",
+        column: "complete",
+        content:
+            "FILE IMPORTS : Redo file paths from relative to absolute",
+        category: ["dev", "product"],
+        targetDate: ["02-19-2024"],
+        completeDate: ["2-23-2024"],
     },
     {
         id: "3",
