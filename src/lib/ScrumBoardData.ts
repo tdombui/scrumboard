@@ -5,18 +5,12 @@ export const columns = [
 ];
 
 export const cards = [
+
     {
         id: "1",
         column: "todo",
         content:
-            "PRODUCTS/APPAREL : Design, deliver, and add Product Launch 2 (Friends n Fam) to webstore",
-        category: ["product", "design"]
-    },
-    {
-        id: "1",
-        column: "todo",
-        content:
-            "META ADS : Schedule Meta Ads campaign #1",
+            "META ADS : Schedule Meta Ads campaign #1 (JADED TECH WORKERS)",
         category: ["product", "business"]
     },
     {
@@ -154,7 +148,13 @@ export const cards = [
         category: ["business"],
 
     },
-
+    {
+        id: "2",
+        column: "inProgress",
+        content:
+            "PRODUCTS/APPAREL : Design, deliver, and add Product Launch 2 (Friends n Fam) to webstore",
+        category: ["product", "design"]
+    },
     {
         id: "2",
         column: "inProgress",
