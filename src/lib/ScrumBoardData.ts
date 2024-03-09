@@ -9,13 +9,6 @@ export const cards = [
         id: "1",
         column: "todo",
         content:
-            "Split domains dombui<>insomnyc ADS : Separate concerns and deploy separate domains",
-        category: ["dev", "product"]
-    },
-    {
-        id: "1",
-        column: "todo",
-        content:
             "DEPLOY 3D : Deploy 3d work and 3d subdomain",
         category: ["dev", "product"]
     },
@@ -164,6 +157,13 @@ export const cards = [
         id: "2",
         column: "inProgress",
         content:
+            "BLENDER : Complete scenes",
+        category: ["design"]
+    },
+    {
+        id: "2",
+        column: "inProgress",
+        content:
             "PRODUCTS/APPAREL : Design, deliver, and add Product Launch 2 (Friends n Fam) to webstore",
         category: ["product", "design"]
     },
@@ -236,6 +236,13 @@ export const cards = [
         category: ["dev"],
         targetDate: ["02-14-2024"],
         completeDate: ["2-19-2024"],
+    },
+    {
+        id: "3",
+        column: "complete",
+        content:
+            "Split domains dombui<>insomnyc : Separate concerns and deploy separate domains => dombui.com & insomnyc.com",
+        category: ["dev", "product"]
     },
     {
         id: "3",
