@@ -5,20 +5,26 @@ export const columns = [
 ];
 
 export const cards = [
-
+    {
+        id: "1",
+        column: "todo",
+        content:
+            "Split domains dombui<>insomnyc ADS : Separate concerns and deploy separate domains",
+        category: ["dev", "product"]
+    },
+    {
+        id: "1",
+        column: "todo",
+        content:
+            "DEPLOY 3D : Deploy 3d work and 3d subdomain",
+        category: ["dev", "product"]
+    },
     {
         id: "1",
         column: "todo",
         content:
             "META ADS : Schedule Meta Ads campaign #1 (JADED TECH WORKERS)",
         category: ["product", "business"]
-    },
-    {
-        id: "1",
-        column: "todo",
-        content:
-            "GALLERY : Add => (1) filters (ie, curated, b-sides, film, digital, horizontal, vertical, dates); (2) Video Gallery; (3) Graphics Gallery; (4)",
-        category: ["dev", "product"]
     },
     {
         id: "1",
@@ -41,7 +47,13 @@ export const cards = [
             "SCRUM BOARD : Add => (1) category per item (product, dev, etc); (2) priority level per item; (3) dates (created, started, completed); (4) 'time-to-completion' calculator for Complete items; (5) AddToArchive function when item is > 30 days; and (6) Archived Scrum items page",
         category: ["dev", "product", "design"]
     },
-
+    {
+        id: "1",
+        column: "todo",
+        content:
+            "GALLERY : Add => (1) filters (ie, curated, b-sides, film, digital, horizontal, vertical, dates); (2) Video Gallery; (3) Graphics Gallery; (4)",
+        category: ["dev", "product"]
+    },
     {
         id: "1",
         column: "todo",
