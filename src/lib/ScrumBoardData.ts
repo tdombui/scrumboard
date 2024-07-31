@@ -12,13 +12,13 @@ export const cards = [
             "DEPLOY 3D : Deploy 3d work and 3d subdomain",
         category: ["dev", "product"]
     },
-    {
-        id: "1",
-        column: "todo",
-        content:
-            "META ADS : Schedule Meta Ads campaign #1 (JADED TECH WORKERS)",
-        category: ["product", "business"]
-    },
+    // {
+    //     id: "1",
+    //     column: "todo",
+    //     content:
+    //         "META ADS : Schedule Meta Ads campaign #1 (JADED TECH WORKERS)",
+    //     category: ["product", "business"]
+    // },
     {
         id: "1",
         column: "todo",
@@ -47,13 +47,13 @@ export const cards = [
             "GALLERY : Add => (1) filters (ie, curated, b-sides, film, digital, horizontal, vertical, dates); (2) Video Gallery; (3) Graphics Gallery; (4)",
         category: ["dev", "product"]
     },
-    {
-        id: "1",
-        column: "todo",
-        content:
-            "RECAPTCHA : Implement RECAPTCHA for contact form",
-        category: ["dev"]
-    },
+    // {
+    //     id: "1",
+    //     column: "todo",
+    //     content:
+    //         "RECAPTCHA : Implement RECAPTCHA for contact form",
+    //     category: ["dev"]
+    // },
     {
         id: "1",
         column: "todo",
