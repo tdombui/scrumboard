@@ -12,6 +12,13 @@ export const cards = [
             "DEPLOY 3D : Deploy 3d work and 3d subdomain",
         category: ["dev", "product"]
     },
+    {
+        id: "1",
+        column: "todo",
+        content:
+            "DEPLOY 3.DOMBUI : Deploy 3D subdomain => <3.dombui.com>",
+        category: ["dev", "product"]
+    },
     // {
     //     id: "1",
     //     column: "todo",
@@ -40,13 +47,13 @@ export const cards = [
             "SCRUM BOARD : Add => (1) category per item (product, dev, etc); (2) priority level per item; (3) dates (created, started, completed); (4) 'time-to-completion' calculator for Complete items; (5) AddToArchive function when item is > 30 days; and (6) Archived Scrum items page",
         category: ["dev", "product", "design"]
     },
-    {
-        id: "1",
-        column: "todo",
-        content:
-            "GALLERY : Add => (1) filters (ie, curated, b-sides, film, digital, horizontal, vertical, dates); (2) Video Gallery; (3) Graphics Gallery; (4)",
-        category: ["dev", "product"]
-    },
+    // {
+    //     id: "1",
+    //     column: "todo",
+    //     content:
+    //         "GALLERY : Add => (1) filters (ie, curated, b-sides, film, digital, horizontal, vertical, dates); (2) Video Gallery; (3) Graphics Gallery; (4)",
+    //     category: ["dev", "product"]
+    // },
     // {
     //     id: "1",
     //     column: "todo",
@@ -68,34 +75,28 @@ export const cards = [
             "COMPONENT/MUSIC PLAYER : Enable Music Player across all /routes",
         category: ["dev"]
     },
-    {
-        id: "1",
-        column: "todo",
-        content:
-            "3D CONTENT : Finish => 3D Spring Animation for interactivity via Three.js/R3F",
-        category: ["dev", "product", "design"]
-    },
-    {
-        id: "1",
-        column: "todo",
-        content:
-            "3D DEPLOYMENT : Deploy 3D subdomain => <3.dombui.com>",
-        category: ["dev", "product"]
-    },
-    {
-        id: "1",
-        column: "todo",
-        content:
-            "3D SIDE QUEST MODELS : Render => (1) selfie, (2) pixelated disco ball,  (3) Japanese Vending Machine for 3D page layout, (4) Pepe paperbag ",
-        category: ["design"]
-    },
-    {
-        id: "1",
-        column: "todo",
-        content:
-            "3D SIDE QUEST PROJECT : Build small 'Backrooms walking game' for users to unlock codes and easter eggs",
-        category: ["dev", "design"]
-    },
+    // {
+    //     id: "1",
+    //     column: "todo",
+    //     content:
+    //         "3D CONTENT : Finish => 3D Spring Animation for interactivity via Three.js/R3F",
+    //     category: ["dev", "product", "design"]
+    // },
+
+    // {
+    //     id: "1",
+    //     column: "todo",
+    //     content:
+    //         "3D SIDE QUEST MODELS : Render => (1) selfie, (2) pixelated disco ball,  (3) Japanese Vending Machine for 3D page layout, (4) Pepe paperbag ",
+    //     category: ["design"]
+    // },
+    // {
+    //     id: "1",
+    //     column: "todo",
+    //     content:
+    //         "3D SIDE QUEST PROJECT : Build small 'Backrooms walking game' for users to unlock codes and easter eggs",
+    //     category: ["dev", "design"]
+    // },
     {
         id: "1",
         column: "todo",
