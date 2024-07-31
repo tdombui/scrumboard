@@ -6,7 +6,7 @@ export default function Header() {
   return (
     <div>
       <h1
-        className="flex items-center justify-center mt-6 font-bold tracking-tight text-white dark:text-gray-200"
+        className="flex items-center justify-center mt-6 mb-4 font-bold tracking-tight text-white dark:text-gray-200"
         style={{ userSelect: "none" }}
       >
         <a
