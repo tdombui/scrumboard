@@ -20,7 +20,7 @@ export default function Header() {
             />
           </div>
         </a>
-        scrum
+        agile
         <div className="flex items-center ml-4 lg:pointer-events-auto">
           <Rabbit
             className="w-10 h-10 text-white"

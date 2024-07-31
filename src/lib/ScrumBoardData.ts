@@ -155,15 +155,17 @@ export const cards = [
 
     },
     {
-        id: "2",
-        column: "inProgress",
+        id: "1",
+        column: "todo",
         content:
-            "BLENDER : Complete scenes",
-        category: ["design"]
+            "STRIPE API : Enable coupons and promo codes",
+        category: ["dev", "product", "business"],
+        targetDate: ["02-14-2024"],
+        completeDate: ["2-19-2024"],
     },
     {
-        id: "2",
-        column: "inProgress",
+        id: "1",
+        column: "todo",
         content:
             "PRODUCTS/APPAREL : Design, deliver, and add Product Launch 2 (Friends n Fam) to webstore",
         category: ["product", "design"]
@@ -172,12 +174,20 @@ export const cards = [
         id: "2",
         column: "inProgress",
         content:
-            "SHOP BANNER : Shop announcements and updates",
-        category: ["dev", "product"],
-        startDate: ["02-21-2024"],
-        targetDate: ["02-22-2024"],
-        completeDate: ["2-22-2024"],
+            "BLENDER : Complete scenes",
+        category: ["design"]
     },
+
+    // {
+    //     id: "2",
+    //     column: "inProgress",
+    //     content:
+    //         "SHOP BANNER : Shop announcements and updates",
+    //     category: ["dev", "product"],
+    //     startDate: ["02-21-2024"],
+    //     targetDate: ["02-22-2024"],
+    //     completeDate: ["2-22-2024"],
+    // },
     {
         id: "2",
         column: "inProgress",
@@ -211,15 +221,7 @@ export const cards = [
         completeDate: ["2-19-2024"],
 
     },
-    {
-        id: "2",
-        column: "inProgress",
-        content:
-            "STRIPE API : Enable coupons and promo codes",
-        category: ["dev", "product", "business"],
-        targetDate: ["02-14-2024"],
-        completeDate: ["2-19-2024"],
-    },
+
     {
         id: "2",
         column: "inProgress",
