@@ -13,7 +13,7 @@ type Card = {
 };
 
 const ScrumBoard: React.FC = () => {
-  const [activeTab, setActiveTab] = useState<string>("todo");
+  const [activeTab, setActiveTab] = useState<string>("inProgress");
   // Handlers for swiping
   const handlers = useSwipeable({
     onSwipedLeft: () => changeTab("next"),
