@@ -174,7 +174,7 @@ export const cards = [
         id: "2",
         column: "inProgress",
         content:
-            "BLENDER : Complete scenes",
+            "BLENDER : Complete scenes (1) blockbuster, (2) boogie, (3) harbor freight, (4) barcelona",
         category: ["design"]
     },
 
@@ -195,15 +195,7 @@ export const cards = [
             "SUBSCRIBE 2 NEWSLETTER : Integrate opt-in `subscribe to newsletter` function to Contact Form; DynamoDB for entries",
         category: ["dev", "product"]
     },
-    {
-        id: "2",
-        column: "inProgress",
-        content:
-            "PAGE/ABOUT : Redo About page",
-        category: ["dev", "design"],
-        targetDate: ["02-14-2024"],
-        completeDate: ["2-19-2024"],
-    },
+
     {
         id: "2",
         column: "inProgress",
@@ -240,6 +232,7 @@ export const cards = [
         targetDate: ["02-14-2024"],
         completeDate: ["2-19-2024"],
     },
+    
     {
         id: "3",
         column: "complete",
@@ -264,6 +257,15 @@ export const cards = [
         category: ["dev", "product"],
         targetDate: ["02-19-2024"],
         completeDate: ["2-20-2024"],
+    },
+    {
+        id: "3",
+        column: "complete",
+        content:
+            "PAGE/ABOUT : Redo About page",
+        category: ["dev", "design"],
+        targetDate: ["02-14-2024"],
+        completeDate: ["2-19-2024"],
     },
     {
         id: "3",
