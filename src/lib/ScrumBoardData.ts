@@ -202,14 +202,6 @@ export const cards = [
             "SUBSCRIBE 2 NEWSLETTER : Integrate opt-in `subscribe to newsletter` function to Contact Form; DynamoDB for entries",
         category: ["dev", "product"]
     },
-
-    {
-        id: "2",
-        column: "inProgress",
-        content:
-            "BLOG : Build Blog for writing and SEO",
-        category: ["dev", "product"]
-    },
     {
         id: "2",
         column: "inProgress",
