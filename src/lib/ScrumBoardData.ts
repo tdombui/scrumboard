@@ -177,6 +177,13 @@ export const cards = [
             "BLENDER : Complete scenes (1) blockbuster, (2) boogie, (3) harbor freight, (4) barcelona",
         category: ["design"]
     },
+    {
+        id: "2",
+        column: "inProgress",
+        content:
+            "BLOG : Complete Sanity schema and deploy blog",
+        category: ["dev","product","design"]
+    },
 
     // {
     //     id: "2",
