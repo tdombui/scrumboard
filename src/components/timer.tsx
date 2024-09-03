@@ -44,7 +44,7 @@ const Timer: React.FC = () => {
   return (
     <div className="timer-container">
       <div
-        className="text-rose-200 flex flex-col justify-center"
+        className="text-emerald-50 flex flex-col justify-center"
         suppressHydrationWarning
         style={{
           fontFamily: "SilkScreen",
@@ -61,23 +61,23 @@ const Timer: React.FC = () => {
             sprint:
           </a>{" "}
           {days}
-          <a className="text-emerald-200" style={{ fontFamily: "Inter" }}>
+          <a className="text-emerald-50" style={{ fontFamily: "Inter" }}>
             d
           </a>{" "}
           {hours}
-          <a className="text-emerald-200" style={{ fontFamily: "Inter" }}>
+          <a className="text-emerald-50" style={{ fontFamily: "Inter" }}>
             h
           </a>{" "}
           {minutes}
-          <a className="text-emerald-200" style={{ fontFamily: "Inter" }}>
+          <a className="text-emerald-50" style={{ fontFamily: "Inter" }}>
             m
           </a>{" "}
           {seconds}
-          <a className="text-emerald-200" style={{ fontFamily: "Inter" }}>
+          <a className="text-emerald-50" style={{ fontFamily: "Inter" }}>
             s{" "}
           </a>{" "}
           {paddedMilliseconds}
-          <a className="text-emerald-200" style={{ fontFamily: "Inter" }}>
+          <a className="text-emerald-50" style={{ fontFamily: "Inter" }}>
             ms
           </a>
         </p>

@@ -1,12 +1,13 @@
-import { ArrowLeft, Rabbit } from "lucide-react";
+import { ArrowLeft, Rabbit, Archive } from "lucide-react";
 import Timer from "./timer";
 import Marquee from "react-fast-marquee";
 
 export default function Header() {
   return (
     <div>
+
       <h1
-        className="flex items-center justify-center mt-6 mb-4 font-bold tracking-tight text-white dark:text-gray-200"
+        className="flex items-center justify-center mt-6 mb-2 font-bold tracking-tight text-white dark:text-gray-200"
         style={{ userSelect: "none" }}
       >
         <a
@@ -28,6 +29,12 @@ export default function Header() {
           />
         </div>
       </h1>
+      <div className="flex items-center justify-center mb-1">
+        <Timer />
+      </div>
+      <div className="absolute top-0 right-0 mt-6 mr-6">
+        <Archive className="w-6 h-6 text-white" />
+      </div>
       <Marquee
         className="news-ticker-container"
         pauseOnHover={true}
@@ -43,15 +50,11 @@ export default function Header() {
         <span className="span-marquee">
           this is what we're building @ INSOMNYC
         </span>
-
         <span className="span-marquee">
           this is what we're doing @ INSOMNYC
         </span>
         <span className="span-marquee">the royal we @ INSOMNYC</span>
       </Marquee>
-      <div className="flex items-center justify-center mb-1">
-        <Timer />
-      </div>
     </div>
   );
 }

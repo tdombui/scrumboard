@@ -16,16 +16,10 @@ export const cards = [
         id: "1",
         column: "todo",
         content:
-            "DEPLOY 3.DOMBUI : Deploy 3D subdomain => <3.dombui.com>",
+            "DEPLOY 3.dombui.com : Deploy 3D subdomain => <3.dombui.com>",
         category: ["dev", "product"]
     },
-    // {
-    //     id: "1",
-    //     column: "todo",
-    //     content:
-    //         "META ADS : Schedule Meta Ads campaign #1 (JADED TECH WORKERS)",
-    //     category: ["product", "business"]
-    // },
+
     {
         id: "1",
         column: "todo",
@@ -47,20 +41,6 @@ export const cards = [
             "SCRUM BOARD : Add => (1) category per item (product, dev, etc); (2) priority level per item; (3) dates (created, started, completed); (4) 'time-to-completion' calculator for Complete items; (5) AddToArchive function when item is > 30 days; and (6) Archived Scrum items page",
         category: ["dev", "product", "design"]
     },
-    // {
-    //     id: "1",
-    //     column: "todo",
-    //     content:
-    //         "GALLERY : Add => (1) filters (ie, curated, b-sides, film, digital, horizontal, vertical, dates); (2) Video Gallery; (3) Graphics Gallery; (4)",
-    //     category: ["dev", "product"]
-    // },
-    // {
-    //     id: "1",
-    //     column: "todo",
-    //     content:
-    //         "RECAPTCHA : Implement RECAPTCHA for contact form",
-    //     category: ["dev"]
-    // },
     {
         id: "1",
         column: "todo",
@@ -75,28 +55,6 @@ export const cards = [
             "COMPONENT/MUSIC PLAYER : Enable Music Player across all /routes",
         category: ["dev"]
     },
-    // {
-    //     id: "1",
-    //     column: "todo",
-    //     content:
-    //         "3D CONTENT : Finish => 3D Spring Animation for interactivity via Three.js/R3F",
-    //     category: ["dev", "product", "design"]
-    // },
-
-    // {
-    //     id: "1",
-    //     column: "todo",
-    //     content:
-    //         "3D SIDE QUEST MODELS : Render => (1) selfie, (2) pixelated disco ball,  (3) Japanese Vending Machine for 3D page layout, (4) Pepe paperbag ",
-    //     category: ["design"]
-    // },
-    // {
-    //     id: "1",
-    //     column: "todo",
-    //     content:
-    //         "3D SIDE QUEST PROJECT : Build small 'Backrooms walking game' for users to unlock codes and easter eggs",
-    //     category: ["dev", "design"]
-    // },
     {
         id: "1",
         column: "todo",
@@ -184,7 +142,6 @@ export const cards = [
             "BLOG : Complete Sanity schema and deploy blog",
         category: ["dev","product","design"]
     },
-
     // {
     //     id: "2",
     //     column: "inProgress",
@@ -212,7 +169,6 @@ export const cards = [
         completeDate: ["2-19-2024"],
 
     },
-
     {
         id: "2",
         column: "inProgress",
@@ -231,7 +187,6 @@ export const cards = [
         targetDate: ["02-14-2024"],
         completeDate: ["2-19-2024"],
     },
-    
     {
         id: "3",
         column: "complete",
@@ -347,7 +302,6 @@ export const cards = [
         category: ["dev", "design"],
         targetDate: ["02-09-2024"],
         completeDate: ["2-13-2024"],
-
     },
     {
         id: "3",
@@ -357,7 +311,6 @@ export const cards = [
         category: ["dev", "design"],
         targetDate: ["02-16-2024"],
         completeDate: ["2-16-2024"],
-
     },
     {
         id: "3",
@@ -368,7 +321,6 @@ export const cards = [
         targetDate: ["02-09-2024"],
         completeDate: ["2-12-2024"],
     },
-
     {
         id: "3",
         column: "complete",
@@ -378,7 +330,6 @@ export const cards = [
         targetDate: ["02-14-2024"],
         completeDate: ["2-19-2024"],
     },
-
     {
         id: "3",
         column: "complete",

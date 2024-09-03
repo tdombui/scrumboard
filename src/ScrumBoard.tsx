@@ -3,6 +3,8 @@ import Background from "./components/background";
 import { useSwipeable } from "react-swipeable";
 import { columns, cards } from "./lib/ScrumBoardData"; // Ensure this path is correct
 import Header from "./components/header";
+import { motion } from "framer-motion";
+
 // import { Archive } from "lucide-react";
 
 type Card = {
@@ -59,14 +61,12 @@ const ScrumBoard: React.FC = () => {
         return "bg-gray-100"; // Default color for categories if none of the above
     }
   };
-
   return (
     <>
       <Background />
       <Header />
-
       <div className="flex justify-center min-h-screen " {...handlers}>
-        <div className="mt-2 w-full max-w-7xl mx-auto p-5">
+        <div className="mt-2 mb-2 w-full max-w-7xl mx-auto p-5">
           <div className=" mb-4 flex md:hidden">
             {columns.map((column) => (
               <button
@@ -123,6 +123,23 @@ const ScrumBoard: React.FC = () => {
           </div>
         </div>
       </div>
+
+
+      <div className="flex justify-center mb-4">Built with Go, React and Typescript</div>
+      <motion.div
+          className="flex justify-center mb-4 group border-transparent transition-colors text-2xs hover-bg-center dombui mt-2"
+          initial={{ opacity: 0, y: 100, scale: 0 }}
+          animate={{ opacity: 1, y: 0, scale: 1 }}
+          transition={{
+            type: "spring",
+            duration: 3.66,
+          }}
+        >             © 2024 <span className="inline-block transition-transform group-hover:translate-x-0.5 motion-reduce:transform-none">
+              dream
+            </span>
+            <span className="inline-block transition-transform group-hover:translate-x-2 motion-reduce:transform-none">
+              build
+            </span></motion.div>
     </>
   );
 };
