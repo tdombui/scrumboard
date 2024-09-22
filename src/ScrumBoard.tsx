@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import Background from "./components/background";
+import Header from "./components/header";
 import { useSwipeable } from "react-swipeable";
 import { columns, cards } from "./lib/ScrumBoardData"; // Ensure this path is correct
-import Header from "./components/header";
 import { motion } from "framer-motion";
 
 // import { Archive } from "lucide-react";
@@ -23,7 +23,6 @@ const ScrumBoard: React.FC = () => {
     onSwiping: (eventData) => {
       eventData.event.preventDefault();
     },
-
     trackMouse: true,
   });
   // Function to change tab based on swipe direction
@@ -48,7 +47,6 @@ const ScrumBoard: React.FC = () => {
         return "bg-gray-200"; // Default background color if none of the above
     }
   };
-
   const getCategoryBackgroundColor = (columnId: string) => {
     switch (columnId) {
       case "todo":
@@ -132,7 +130,7 @@ const ScrumBoard: React.FC = () => {
           animate={{ opacity: 1, y: 0, scale: 1 }}
           transition={{
             type: "spring",
-            duration: 3.66,
+            duration: 2.66,
           }}
         >             © 2024 <span className="inline-block transition-transform group-hover:translate-x-0.5 motion-reduce:transform-none">
               dream
