@@ -2,9 +2,8 @@ import React, { useState, useEffect } from "react";
 import "./components.css";
 
 const Timer: React.FC = () => {
-  const countdownStartDate = new Date().getTime();  // Use the current date
-
-  // const countdownStartDate = new Date("2024-09-21T12:21:00Z").getTime();
+  // const countdownStartDate = new Date().getTime();  // Use the current date
+  const countdownStartDate = new Date("2024-09-21T12:21:00Z").getTime();
   const countdownDuration = 14 * 24 * 60 * 60 * 1000; // 14 days in milliseconds
   const targetDate = new Date(countdownStartDate + countdownDuration);
 
