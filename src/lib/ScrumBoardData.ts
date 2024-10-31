@@ -19,7 +19,6 @@ export const cards = [
             "DEPLOY 3.dombui.com : Deploy 3D subdomain => <3.dombui.com>",
         category: ["dev", "product"]
     },
-
     {
         id: "1",
         column: "todo",
